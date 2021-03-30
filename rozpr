@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Friends are more influential than family.</h1>
+
+<p>		Many people say that teenagers these days are closer to their friends than they are to their families.<br>
+	In my opinion friends are more influential in their life than their families.<br>
+<br>
+		More and more teenagers are seeking help and understanding from their friends rather than their parents. <br>
+	I believe the biggest cause for that is the generation gap. It’s easier for them to understand each other because they grew up in similar environments.<br>
+	Additionally, since friends go through similar experiences they can relate to each other more, than they can with<br>
+	parents or other family members.<br>
+	<br>
+		On the other hand, we know our families ever since we are born, so often they know stuff about us, which <br>
+	our friends don’t know. That means that sometimes they can provide more personalised advice. <br>
+<br>
+		In conclusion, the generation gap and similar experiences lead to better connections with our friends, but <br>
+	sometimes its good to ask our family for advice. Nevertheless I still believe friends have more influence on our lives.</p>
+<br>
+<div id="respond">
+
+  <h3>Leave a Comment</h3>
+
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Your email;</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Your message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+   
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+
+</div>
+<picture>
+  <img src="https://i.kym-cdn.com/entries/icons/facebook/000/033/865/tumblr_pd85sxlurU1wa89rko1_1280.jpg" alt="cornn flaek" />
+</picture>
+
+</body>
+</html>
